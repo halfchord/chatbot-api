@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>chatbot-api</artifactId>
+    <artifactId>chatbot-api-infrastucture</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chatbot-api</name>
-    <description>chatbot-api</description>
+    <name>chatbot-api-infrastucture</name>
+    <description>chatbot-api-infrastucture</description>
     <url/>
     <licenses>
         <license/>
@@ -32,7 +32,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
@@ -51,10 +51,4 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>chatbot-api-application</module>
-        <module>chatbot-api-interfaces</module>
-        <module>chatbot-api-infrastucture</module>
-        <module>chatbot-api-doman</module>
-    </modules>
 </project>
